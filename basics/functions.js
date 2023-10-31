@@ -43,3 +43,34 @@ function add(num){
 //}
 //console.log(sub)
 
+//let mail=" "//{} //[] //a16@gmail.com";
+//if(mail)
+{
+    //console.log("logged in");
+}
+//else{
+    //console.log('forgot mail')
+//}
+//truthy-{},[]," ","0","false",function(){}
+//false - 0, -0,"",null,undefined
+
+//to check whether arrays are empty
+let mail=[]
+if(mail.length===0){
+    //console.log("array is empty");
+}
+let obj={}
+if(Object.keys(obj).length===0){
+    //console.log("object is empty");
+}
+//nullish coalescing operator(??)
+let val=9
+//val=9??10
+//val=null??8
+val=null??undefined??0
+//console.log(val);
+
+//ternary operator(?)
+//condn?true:false
+const age=24
+age>=21 ? console.log("adult"):console.log("teen");
